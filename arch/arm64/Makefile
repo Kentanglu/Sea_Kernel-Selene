@@ -132,7 +132,7 @@ else
 ifneq ($(call ld-option, -maarch64_elf64_be_vec),)
 LDFLAGS		+= -maarch64_elf64_be_vec
 else
-LDFLAGS		+= -maarch64linuxb
+LDFLAGS		+= -maarch64elfb
 endif
 endif
 UTS_MACHINE	:= aarch64_be
@@ -147,7 +147,7 @@ else
 ifneq ($(call ld-option, -maarch64_elf64_le_vec),)
 LDFLAGS		+= -maarch64_elf64_le_vec
 else
-LDFLAGS		+= -maarch64linux
+LDFLAGS		+= -maarch64elf
 endif
 endif
 UTS_MACHINE	:= aarch64
