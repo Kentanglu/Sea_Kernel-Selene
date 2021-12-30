@@ -200,15 +200,15 @@ while (0)
 	## args);  } \
 while (0)
 #define C2K_NOTE(format, args...) do {if (c2k_dbg_level(C2K_LOG_NOTICE)) \
-	pr_notice("C2K_USB_NOTE,<%s %d>, " format, __func__, __LINE__, \
+	pr_debug("C2K_USB_NOTE,<%s %d>, " format, __func__, __LINE__, \
 	## args);  } \
 while (0)
 #define C2K_INFO(format, args...) do {if (c2k_dbg_level(C2K_LOG_INFO)) \
-	pr_notice("C2K_USB_INFO,<%s %d>, " format, __func__, __LINE__, \
+	pr_debug("C2K_USB_INFO,<%s %d>, " format, __func__, __LINE__, \
 	## args);  } \
 while (0)
 #define C2K_DBG(format, args...) do {if (c2k_dbg_level(C2K_LOG_DBG)) \
-	pr_notice("C2K_USB_DBG,<%s %d>, " format, __func__, __LINE__, \
+	pr_debug("C2K_USB_DBG,<%s %d>, " format, __func__, __LINE__, \
 	## args);  } \
 while (0)
 #else
