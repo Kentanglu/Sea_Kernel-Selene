@@ -706,21 +706,21 @@
 #define CPU_DVFS_FREQ15_L_G75		500000		/* KHz */
 
 /* for DVFS OPP table CCI */
-#define CPU_DVFS_FREQ0_CCI_G75		1274000		/* KHz */
-#define CPU_DVFS_FREQ1_CCI_G75		1118000		/* KHz */
-#define CPU_DVFS_FREQ2_CCI_G75		1047000		/* KHz */
-#define CPU_DVFS_FREQ3_CCI_G75		1012000		/* KHz */
-#define CPU_DVFS_FREQ4_CCI_G75		960800		/* KHz */
-#define CPU_DVFS_FREQ5_CCI_G75		908800		/* KHz */
+#define CPU_DVFS_FREQ0_CCI_G75		1277000		/* KHz */
+#define CPU_DVFS_FREQ1_CCI_G75		1120000		/* KHz */
+#define CPU_DVFS_FREQ2_CCI_G75		1049000		/* KHz */
+#define CPU_DVFS_FREQ3_CCI_G75		1014000		/* KHz */
+#define CPU_DVFS_FREQ4_CCI_G75		961000		/* KHz */
+#define CPU_DVFS_FREQ5_CCI_G75		909000		/* KHz */
 #define CPU_DVFS_FREQ6_CCI_G75		856000		/* KHz */
-#define CPU_DVFS_FREQ7_CCI_G75		820000		/* KHz */
-#define CPU_DVFS_FREQ8_CCI_G75		767000		/* KHz */
-#define CPU_DVFS_FREQ9_CCI_G75		732000		/* KHz */
-#define CPU_DVFS_FREQ10_CCI_G75	        697000		/* KHz */
-#define CPU_DVFS_FREQ11_CCI_G75	        662000		/* KHz */
-#define CPU_DVFS_FREQ12_CCI_G75	        627000		/* KHz */
-#define CPU_DVFS_FREQ13_CCI_G75	        592000		/* KHz */
-#define CPU_DVFS_FREQ14_CCI_G75	        557000		/* KHz */
+#define CPU_DVFS_FREQ7_CCI_G75		821000		/* KHz */
+#define CPU_DVFS_FREQ8_CCI_G75		768000		/* KHz */
+#define CPU_DVFS_FREQ9_CCI_G75		733000		/* KHz */
+#define CPU_DVFS_FREQ10_CCI_G75	        698000		/* KHz */
+#define CPU_DVFS_FREQ11_CCI_G75	        663000		/* KHz */
+#define CPU_DVFS_FREQ12_CCI_G75	        628000		/* KHz */
+#define CPU_DVFS_FREQ13_CCI_G75	        593000		/* KHz */
+#define CPU_DVFS_FREQ14_CCI_G75	        558000		/* KHz */
 #define CPU_DVFS_FREQ15_CCI_G75	        500000		/* KHz */
 
 /* for DVFS OPP table L */
